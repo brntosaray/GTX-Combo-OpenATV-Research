@@ -1,0 +1,18 @@
+# Do not commit vendor binaries, captures, secrets or private dumps
+*.ko
+*.img
+*.bin
+*.fw
+*.ts
+*.tar
+*.tar.gz
+*.zip
+*.log
+*.dump
+*.key
+*.pem
+.env
+secrets/
+private/
+firmware/
+backups/
