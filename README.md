@@ -1,5 +1,8 @@
 # GTMedia GTX Combo — OpenATV / Enigma2 community research
 
+**Community:** [Discussions](https://github.com/brntosaray/GTX-Combo-OpenATV-Research/discussions) · [Welcome topic (ready to publish)](docs/COMMUNITY_WELCOME.md) · [Issues](https://github.com/brntosaray/GTX-Combo-OpenATV-Research/issues)
+
+
 **GTMedia GTX Combo (Amlogic S905X3) • Experimental external-drive OpenATV / Enigma2 DVB research**
 
 > **Status: 17 November 2026. Experimental boot and DVB integration only. Successful complete DVB-S/S2 service discovery or DVB-T/T2 reception is NOT claimed.** This repository is not an official OpenATV/GTMedia release.
