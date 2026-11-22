@@ -7,3 +7,9 @@
 5. Can reliable source patches be provided and maintained without distributing vendor binary modules or proprietary firmware?
 
 Please include hardware revision, kernel ABI and build provenance, exact test conditions, evidence date, reproducible logs and explicit limitations. A candidate fix should only be marked successful after receiver-side verification.
+
+## OpenBH/XC progress and remaining evidence (22 November 2026)
+
+**Do not retest known-working satellite routing merely to reproduce a historical failure.** OpenBH/XC satellite picture and sound were operator-confirmed after correction of `xc_fe_ts`. The operator also reports working terrestrial reception, but the full post-fix terrestrial test record and precise final driver set remain to be published. See [OpenBH/XC progress](OPENBH_XC_DVB_SUCCESS_2026-11-22.md).
+
+Especially useful now: final **terrestrial** driver provenance, tuner scan/playback or TS evidence, reproducible reboot/cold boot and boot-to-Mars fallback results, and a clear distinction between OpenBH/XC versus OpenATV images. Keep proprietary modules and private backups out of public issues.
