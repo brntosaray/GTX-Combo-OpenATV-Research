@@ -7,6 +7,16 @@
 
 > **Updated 22 November 2026:** **OpenBH/XC Enigma2 on one GTX Combo has operator-confirmed working satellite picture and sound; the operator also reports terrestrial reception working.** These are **OpenBH/XC findings**, not proof that an unmodified OpenATV image works in the same way. Terrestrial post-fix logs and complete build manifest have not yet been published. This is not an official GTMedia/OpenATV release or a downloadable working image.
 
+## Official openATV GTX Combo port — November 2026
+
+**Credit:** Captain and the openATV team developed the native GTX Combo port, including the Linux 5.15.196 integration, DVB/media support, multiboot and Open Recovery Manager (ORM). This independent repository contributed device testing, diagnostic observations and feedback; it is not the author or distributor of their official image. Thanks to Munir for comparative receiver testing.
+
+- [Official openATV image downloads](https://images.mynonpublic.com/openatv/index.php?open=gtxcombo&v=8.0)
+- [Original development discussion on LinuxSat](https://www.linuxsat-support.com/thread/164261-first-full-open-source-box-coming/)
+- [Independent r4 test results and backup guidance](docs/CAPTAIN_OPENATV_R4_2026-11-28.md)
+
+The operator tested r4 from external USB HDD and chose to archive this independent OpenATV investigation after reporting the official release. Earlier OpenBH/XC experiments below remain historical, separate from Captain's port.
+
 ## Purpose
 
 Invite upstream maintainers and knowledgeable contributors to review and help build reliable Linux DVB support for **GTMedia GTX Combo**. The **GT Combo** and **GTX Combo** must not be assumed identical without board-level verification. This project is independent of the operator's CoreELEC experiments and private engineering repository.
